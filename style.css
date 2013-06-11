@@ -18,13 +18,13 @@ h1 {
 #main-banner h1 {
     color: white;
     font-style: italic;
-    font-size: 38px;
+    font-size: 27px;
     font-weight: bold;
     text-shadow: 1px 1px 1px #06505f;
 }
 #main-banner h2 {
     color: #01586b;
-    font-size: 31px;
+    font-size: 26px;
     font-weight: normal;
     font-style: italic;
     text-shadow: 1px 1px 1px #07ccea;
@@ -38,7 +38,7 @@ h1 {
     text-shadow: 1px 1px 1px #2dbdd5;
     margin-top:20px;
 }
-#main-banner p {
+#main-banner p, #main-banner li {
     color: #002332;
     font-weight: normal;
     font-style: italic;
@@ -46,8 +46,11 @@ h1 {
     text-shadow: 1px 1px 1px #2dbdd5;
     margin-top: 6px;
 }
+#main-banner li {
+	list-style-type: none;
+}
 #title {
-    padding-top:100px;
+    padding-top:50px;
     float:left;
     width: 370px;
 }
